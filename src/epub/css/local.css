@@ -1,9 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-
 /* Dialogue table */
-
 [epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
@@ -44,9 +42,7 @@ section[epub|type~="z3998:scene"] > p{
 	width: 75%;
 }
 
-
-/*Dramatis Personae */
-
+/* Dramatis Personae */
 [epub|type~="z3998:dramatis-personae"]{
 	text-align: center;
 }
@@ -70,10 +66,7 @@ section[epub|type~="z3998:scene"] > p{
 	margin-top: 2em;
 }
 
-
 /* Stage directions and personas */
-
-
 [epub|type~="z3998:stage-direction"]{
 	font-style: italic;
 }
@@ -98,9 +91,7 @@ i [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
 
-
 /* Editorial stage directions */
-
 [epub|type~="z3998:stage-direction"].editorial::before{
 	content: "[";
 }
@@ -110,7 +101,6 @@ i [epub|type~="z3998:persona"]{
 }
 
 /* Abbreviated stage directions */
-
 abbr[epub|type~="z3998:stage-direction"]{
 	font-style: normal;
 	font-variant: all-small-caps;
@@ -118,11 +108,10 @@ abbr[epub|type~="z3998:stage-direction"]{
 
 abbr[epub|type~="z3998:stage-direction"]::before,
 abbr[epub|type~="z3998:stage-direction"]::after{
-	content: '';
+	content: "";
 }
 
 /* Together CSS (for multiple speakers speaking together) */
-
 tr.together{
 	break-inside: avoid;
 }
@@ -147,7 +136,6 @@ tr.together td + td{
 }
 
 /* Stanza, spans, and breaks */
-
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -168,7 +156,6 @@ tr.together td + td{
 }
 
 /* Line indentation */
-
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
@@ -180,7 +167,6 @@ p span.i2{
 }
 
 /* Elision */
-
 span.elision{
 	margin: .5em;
 	margin-left: 3em;
@@ -192,25 +178,21 @@ span.elision{
 }
 
 /* Poetry hgroup */
-
 [epub|type~="z3998:poem"] hgroup p{
 	text-align: center;
 }
 
 /* Caesuras */
-
 span > span:first-child{
 	margin-right: 1.5em;
 }
 
 /* Double dropped line */
-
 .dl2 span:first-child{
 	vertical-align: 100%;
 }
 
 /* Triple dropped line */
-
 .dl3 span:first-child{
 	vertical-align: 200%;
 }
@@ -220,7 +202,6 @@ span > span:first-child{
 }
 
 /* Verse paragraphs */
-
 [epub|type~="z3998:poem"] p + p > span:first-child{
 	padding-left: 2em;
 	text-indent: -1em;
