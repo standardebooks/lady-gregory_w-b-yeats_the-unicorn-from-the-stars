@@ -136,22 +136,26 @@ tr.together td + td{
 }
 
 /* Stanza, spans, and breaks */
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:verse"] p,
+[epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
+[epub|type~="z3998:verse"] p + p,
+[epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:verse"] p > span,
+[epub|type~="z3998:song"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:verse"] p > span + br,
+[epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
 
@@ -178,7 +182,8 @@ span.elision{
 }
 
 /* Poetry hgroup */
-[epub|type~="z3998:poem"] hgroup p{
+[epub|type~="z3998:verse"] hgroup p,
+[epub|type~="z3998:song"] hgroup p{
 	text-align: center;
 }
 
@@ -202,7 +207,24 @@ span > span:first-child{
 }
 
 /* Verse paragraphs */
-[epub|type~="z3998:poem"] p + p > span:first-child{
+/* [epub|type~="z3998:verse"] p + p > span:first-child,
+[epub|type~="z3998:song"] p + p > span:first-child{
 	padding-left: 2em;
 	text-indent: -1em;
+} */
+/* Spacing around embedded verse and stage directions */
+p + div[epub|type~="z3998:verse"],
+p + div[epub|type~="z3998:song"]{
+	margin-left: 2em;
+	margin-top: 1em;
+}
+
+div[epub|type~="z3998:verse"] + p,
+div[epub|type~="z3998:song"] + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:drama"] td > p + p{
+	margin-top: 1em;
+	text-indent: 0;
 }
