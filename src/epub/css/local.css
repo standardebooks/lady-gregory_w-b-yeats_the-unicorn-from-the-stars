@@ -2,8 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Dialogue table */
-[epub|type~="z3998:drama"] table,
-table[epub|type~="z3998:drama"]{
+[epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
@@ -62,10 +61,6 @@ section[epub|type~="z3998:scene"] > p{
 	margin: 1em;
 }
 
-[epub|type~="z3998:dramatis-personae"] ul + p{
-	margin-top: 2em;
-}
-
 /* Stage directions and personas */
 [epub|type~="z3998:stage-direction"]{
 	font-style: italic;
@@ -89,50 +84,6 @@ i [epub|type~="z3998:persona"]{
 
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
-}
-
-/* Editorial stage directions */
-[epub|type~="z3998:stage-direction"].editorial::before{
-	content: "[";
-}
-
-[epub|type~="z3998:stage-direction"].editorial::after{
-	content: "]";
-}
-
-/* Abbreviated stage directions */
-abbr[epub|type~="z3998:stage-direction"]{
-	font-style: normal;
-	font-variant: all-small-caps;
-}
-
-abbr[epub|type~="z3998:stage-direction"]::before,
-abbr[epub|type~="z3998:stage-direction"]::after{
-	content: "";
-}
-
-/* Together CSS (for multiple speakers speaking together) */
-tr.together{
-	break-inside: avoid;
-}
-
-tr.together td{
-	padding: 0 .5em 0 0;
-	vertical-align: middle;
-}
-
-tr.together td:only-child,
-tr.together td + td{
-	border-left: 1px solid;
-}
-
-.together + .together td[rowspan],
-.together + .together td[rowspan] + td{
-	padding-top: .5em;
-}
-
-[epub|type~="z3998:drama"] .together td:last-child{
-	padding-left: .5em;
 }
 
 /* Stanza, spans, and breaks */
@@ -165,53 +116,6 @@ p span.i1{
 	text-indent: -1em;
 }
 
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
-}
-
-/* Elision */
-span.elision{
-	margin: .5em;
-	margin-left: 3em;
-}
-
-/* If eliding within an epigraph, include this additional style: */
-[epub|type~="epigraph"] span.elision{
-	font-style: normal;
-}
-
-/* Poetry hgroup */
-[epub|type~="z3998:verse"] hgroup p,
-[epub|type~="z3998:song"] hgroup p{
-	text-align: center;
-}
-
-/* Caesuras */
-span > span:first-child{
-	margin-right: 1.5em;
-}
-
-/* Double dropped line */
-.dl2 span:first-child{
-	vertical-align: 100%;
-}
-
-/* Triple dropped line */
-.dl3 span:first-child{
-	vertical-align: 200%;
-}
-
-.dl3 span:nth-child(2){
-	vertical-align: 100%;
-}
-
-/* Verse paragraphs */
-/* [epub|type~="z3998:verse"] p + p > span:first-child,
-[epub|type~="z3998:song"] p + p > span:first-child{
-	padding-left: 2em;
-	text-indent: -1em;
-} */
 /* Spacing around embedded verse and stage directions */
 p + div[epub|type~="z3998:verse"],
 p + div[epub|type~="z3998:song"]{
