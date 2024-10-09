@@ -67,7 +67,6 @@ section[epub|type~="z3998:scene"] > p{
 }
 
 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
 i [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
@@ -93,7 +92,6 @@ i [epub|type~="z3998:persona"]{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:verse"] p + p,
 [epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
@@ -123,8 +121,7 @@ p + div[epub|type~="z3998:song"]{
 	margin-top: 1em;
 }
 
-div[epub|type~="z3998:verse"] + p,
-div[epub|type~="z3998:song"] + p{
+div[epub|type~="z3998:verse"] + p{
 	margin-top: 1em;
 }
 
