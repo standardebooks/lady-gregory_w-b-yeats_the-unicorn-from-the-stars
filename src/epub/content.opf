@@ -32,14 +32,16 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85043846</meta>
 		<meta property="se:subject">Drama</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A young man’s visions disrupt the peace of his community.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;In a coachbuilder’s workshop in rural Ireland, a young man awakens from a trance. His uncle hopes he will finish the gilded coach he was building for the English authorities in Dublin Castle, but his visions lead him and the new followers he finds down a different path.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/w-b-yeats"&gt;William Butler Yeats&lt;/a&gt; is best remembered today for &lt;a href="https://standardebooks.org/ebooks/w-b-yeats/poetry"&gt;his poetry&lt;/a&gt;, some of the most important of the 20th century. But he was also an important figure in the theatre. Most of his plays were written as collaborations with his friend and patron, &lt;a href="https://standardebooks.org/ebooks/lady-gregory"&gt;Isabella Augusta, Lady Gregory&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;Gregory was an accomplished writer in her own right, known for books of Irish folklore, history, and mythology, and was considered to have a gift for capturing the patterns of everyday hiberno-English speech, something Yeats lacked.&lt;/p&gt;
+			&lt;p&gt;Just how much of the plays attributed to Yeats was actually written by Gregory is still debated. Yeats titled the collection in which &lt;i&gt;The Unicorn from the Stars&lt;/i&gt; appears “Plays in Prose and Verse, written for an Irish theatre, and generally with the help of a friend.” In the preface, he credits Gregory’s help on nearly all his plays, and describes &lt;i&gt;The Unicorn from the Stars&lt;/i&gt; as, “but for fable and chief character ... wholly her work.” Still, though he admits only a few of his plays are “wholly mine,” only &lt;i&gt;The Unicorn from the Stars,&lt;/i&gt; their last collaboration, was ever published with Gregory named as a co-author.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/49610</dc:source>
 		<dc:source>https://archive.org/details/playsinprosevers0000yeat_f0l9</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/lady-gregory_w-b-yeats_the-unicorn-from-the-stars</meta>
