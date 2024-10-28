@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/lady-gregory_w-b-yeats/the-unicorn-from-the-stars</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-10-28T21:19:52Z</dc:date>
+		<meta property="dcterms:modified">2024-10-28T21:19:52Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -35,15 +35,13 @@
 		<dc:description id="description">A young man’s visions disrupt the peace of his community.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In a coachbuilder’s workshop in rural Ireland, a young man awakens from a trance. His uncle hopes he will finish the gilded coach he was building for the English authorities in Dublin Castle, but his visions lead him and the new followers he finds down a different path.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/w-b-yeats"&gt;William Butler Yeats&lt;/a&gt; is best remembered today for &lt;a href="https://standardebooks.org/ebooks/w-b-yeats/poetry"&gt;his poetry&lt;/a&gt;, some of the most important of the 20th century. But he was also an important figure in the theatre. Most of his plays were written as collaborations with his friend and patron, &lt;a href="https://standardebooks.org/ebooks/lady-gregory"&gt;Isabella Augusta, Lady Gregory&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;Gregory was an accomplished writer in her own right, known for books of Irish folklore, history, and mythology, and was considered to have a gift for capturing the patterns of everyday hiberno-English speech, something Yeats lacked.&lt;/p&gt;
-			&lt;p&gt;Just how much of the plays attributed to Yeats was actually written by Gregory is still debated. Yeats titled the collection in which &lt;i&gt;The Unicorn from the Stars&lt;/i&gt; appears “Plays in Prose and Verse, written for an Irish theatre, and generally with the help of a friend.” In the preface, he credits Gregory’s help on nearly all his plays, and describes &lt;i&gt;The Unicorn from the Stars&lt;/i&gt; as, “but for fable and chief character … wholly her work.” Still, though he admits only a few of his plays are “wholly mine,” only &lt;i&gt;The Unicorn from the Stars,&lt;/i&gt; their last collaboration, was ever published with Gregory named as a co-author.&lt;/p&gt;
+			&lt;p&gt;Most of &lt;a href="https://standardebooks.org/ebooks/w-b-yeats"&gt;Yeats’&lt;/a&gt; plays were written as collaborations with his friend and patron, Isabella Augusta. Just how many of the plays attributed to Yeats were actually written by Gregory is still debated. Yeats titled the collection in which &lt;i&gt;The Unicorn from the Stars&lt;/i&gt; appears “Plays in Prose and Verse, written for an Irish theatre, and generally with the help of a friend.” In the preface, he credits Gregory’s help on nearly all his plays, and describes &lt;i&gt;The Unicorn from the Stars&lt;/i&gt; as, “but for fable and chief character … wholly her work.” Still, though he admits only a few of his plays are “wholly mine,” only &lt;i&gt;The Unicorn from the Stars&lt;/i&gt;, their last collaboration, was ever published with Gregory named as a co-author.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/49610</dc:source>
 		<dc:source>https://archive.org/details/playsinprosevers0000yeat_f0l9</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">15443</meta>
+		<meta property="se:reading-ease.flesch">91.82</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/lady-gregory_w-b-yeats_the-unicorn-from-the-stars</meta>
 		<dc:creator id="author-1">Lady Gregory</dc:creator>
 		<meta property="file-as" refines="#author-1">Gregory, Lady</meta>
@@ -80,6 +78,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
