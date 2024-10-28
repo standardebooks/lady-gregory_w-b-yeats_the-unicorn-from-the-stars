@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="content.opf">
+		<ignore>
+			<code>m-056</code>
+			<reason>Lady Gregory does not have an independent author page as of October 2024.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
