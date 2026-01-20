@@ -41,7 +41,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/49610</dc:source>
 		<dc:source>https://archive.org/details/playsinprosevers0000yeat_f0l9</dc:source>
-		<meta property="se:word-count">15443</meta>
+		<meta property="se:word-count">15333</meta>
 		<meta property="se:reading-ease.flesch">91.82</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/lady-gregory_w-b-yeats_the-unicorn-from-the-stars</meta>
 		<dc:creator id="author-1">Lady Gregory</dc:creator>
