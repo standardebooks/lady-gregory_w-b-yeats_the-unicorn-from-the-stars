@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="content.opf">
 		<ignore code="m-056">
+			<line>39</line>
 			<reason>Lady Gregory does not have an independent author page as of October 2024.</reason>
 		</ignore>
 	</file>
